@@ -12,7 +12,7 @@ var counter = 0;
     }
   }
 
-let DateToCountDown = new Date("Nov 21, 2020 00:00:00");
+let DateToCountDown = new Date("Dec 21, 2020 00:00:00");
 
 setInterval( function countdown() {
   let DateNow = new Date().getTime();
