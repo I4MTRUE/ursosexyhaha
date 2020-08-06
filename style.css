@@ -1,0 +1,175 @@
+#rouj {
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  color: red;
+}
+
+#catourne {
+  font-weight: bold;
+  font-style: oblique;
+  color: red;
+  padding-top: 200px;
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: bold;
+	-webkit-animation: rotation 4s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+#ACCES
+{
+  color: white;
+  text-align: center;
+}
+
+body {
+  visibility: visible;
+}
+
+div {
+  padding-top: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  bottom: 0px;
+}
+
+#dont {
+  margin: auto;
+}
+
+#background {
+  background-image: url(www.jpg);
+  height: 10000px;
+}
+
+#bigfatcock {
+  font-family: "Impact";
+  color : black;
+  font-size: 250px;
+  background-color: white;
+}
+
+h2 {
+  color : black;
+  font-family: "Comic Sans MS";
+}
+
+a {
+  color : magenta;
+  font-family: "Comic Sans MS";
+}
+
+
+#codewrite {
+  font-family: 'Inconsolata', monospace;
+}
+
+#copaings {
+  margin:0 auto;
+  width:500px;
+  background-color: white;
+}
+
+#chill
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#relative {
+  position: relative
+}
+
+#meme {
+  float: right;
+  width: 200px;
+  height: auto;
+}
+
+
+#centered {
+  text-align: center;
+  color: green;
+}
+
+#time {
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  border-radius : 2px;
+  width: 40%;
+  margin: -0 auto;
+  margin-top: 200px;
+  height: auto;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
+
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Recursive', sans-serif;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+#code {
+  background-color: #C0C0C0;
+font-family: 'Roboto Mono', monospace;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 800px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#underline{
+  text-decoration: underline;
+}

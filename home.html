@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Recursive:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="chill">- Ptn imaginez pas pouvoir faire une horloge d'hiver :</h1>
+<div id="relative"><img src="horloge.png"> <img id="meme" src="getaload.jpg"><img id="meme" src="bg.jpg"></div>
+<div id="time"> <h1 id="chill"> true horloge vers l'hiver (en vrai hype ptn):</h1>
+<p style ="text-align: center;" id="chill"> Jours avant l'hiver : </p>
+<p id="horloge"> </p></div>
+<br>
+<button type="button" class="collapsible">Code Pour l'Horloge</button>
+<div class="content">
+  <div class="row">
+  <div class="column"><h1>HTML</h1>
+    <div id="code">
+    <p>&lt;div id="time"> </p>
+    <p>&lt;h1 id="chill">
+    true horloge vers l'hiver (en vrai hype ptn):&lt;/h1></p>
+    <p>&lt;p style ="text-align: center;" id="chill"> Jours avant l'hiver : &lt;/p></p>
+    <p style ="color:red";>&lt;p id="horloge"> &lt;/p></p>
+    <p>&lt;/div></p>
+  </div>
+  </div>
+  <div class="column"><h1>CSS</h1>
+    <div id="code">
+    <p id="underline">#chill</p>
+    <p>{font-family: 'Open Sans', sans-serif;}</p>
+    <br>
+    <p id="underline">#time</p>
+    <p>{font-size: 20px;
+      font-family: 'Roboto Mono', monospace;
+      border-style: solid;
+      border-radius : 2px;
+      width: 40%;
+      margin: -0 auto;
+      margin-top: 200px;
+      height: auto;}</p>
+  </div>
+  </div>
+  <div class="column"><h1>JavaScript</h1>
+    <div id="code">
+    <p>let DateToCountDown = new Date("Nov 21, 2020 00:00:00");</p>
+    <p>setInterval( function countdown() { </p>
+      <p>let DateNow = new Date().getTime();</p>
+      <p>let between = DateToCountDown - DateNow;</p>
+      <p>var d = Math.floor(between / (1000 * 60 * 60 * 24));</p>
+      <p>var h = Math.floor((between % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));</p>
+      <p>var m = Math.floor((between % (1000 * 60 * 60)) / (1000 * 60));</p>
+      <p>var s = Math.floor((between % (1000 * 60)) / 1000);</p>
+      <p>var mil = (between % (1000))</p>
+      <p>document.getElementById("horloge").innerHTML =  d + " jours " + h + " heures "
+        + m + " minutes " + s + " secondes " + mil + " millisecondes" + "&lt;/h1>";
+    },1);</p><p/>
+  </div>
+</div>
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
