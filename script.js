@@ -4,11 +4,11 @@ var counter = 0;
     alert("okay dude calm down");
     counter++;
     if (counter > 3) {
-      document.getElementById("dont").src = "canudont.png" ;
+      document.getElementById("dont").src = "img/canudont.png" ;
     }
     if (counter > 6) {
       document.getElementById("fucku").innerHTML="<h1 id='bigfatcock'>CAN YOU DONT ???</h1>" ;
-      document.getElementById("dont").src = "canudontangry.png" ;
+      document.getElementById("dont").src = "img/canudontangry.png" ;
     }
   }
 
