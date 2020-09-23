@@ -199,3 +199,25 @@ font-family: 'Roboto Mono', monospace;
   margin-right: auto;
   display: block
 }
+
+#serveur{
+font-family: "Comic Sans MS";
+color: blue;
+}
+
+button {
+    font-size: 1em;
+}
+
+#download{
+margin: auto;
+width: 8%;
+}
+
+#game-title{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#game{
+  border-style: solid;
+}
