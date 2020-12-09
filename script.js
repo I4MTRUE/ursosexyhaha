@@ -26,7 +26,6 @@ setInterval( function countdown() {
     + m + " minutes " + s + " secondes " + mil + " millisecondes" + "</h1>";
 },1);
 
-
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
