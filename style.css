@@ -232,3 +232,19 @@ width: 8%;
   margin-top: 20px;
   height: auto;
 }
+#update {
+  margin-left: 15%;
+  margin-bottom: 500px;
+  height: auto;
+}
+#left {
+  width: 33%;
+  float: left;
+margin-bottom: auto;
+}
+
+#right {
+  width: 33%;
+  float: left;
+  margin-bottom: auto;
+}
